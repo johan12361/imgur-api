@@ -1,6 +1,6 @@
 {
-  "name": "imgur-api",
-  "version": "0.0.8",
+  "name": "simple-imgur-api",
+  "version": "0.0.2",
   "main": "./src/index.js",
   "type": "module",
   "types": "index.d.ts",

@@ -41,9 +41,7 @@ export async function uploadImageAnon(clientId, imagenPath) {
       })
     })
     const data = await response.json()
-    console.log(data)
     if (response.ok) {
-      console.log('Imagen subida exitosamente:', data.data.link)
       return data.data
     } else {
       console.error('Error al subir la imagen:', data)

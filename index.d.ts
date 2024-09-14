@@ -1,5 +1,5 @@
 // index.d.ts
-declare module 'imgur-api' {
+declare module 'simple-imgur-api' {
   /**
    * Uploads an image anonymously to Imgur.
    *
@@ -11,7 +11,7 @@ declare module 'imgur-api' {
    * @param imagenPath - The local file path to the image to upload.
    * @returns A promise that resolves to the response data from Imgur on success, or `null` on failure.
    */
-  export function uploadImageAnon(
+  export async function uploadImageAnon(
     clientId: string,
     imagenPath: string,
   ): Promise<string | null>
